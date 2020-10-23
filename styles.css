@@ -89,6 +89,7 @@ _______________________________*/
     font-size: 24px;
     color: #48BB78;
 }
+
 .cards {
     display: grid;
     grid-template-columns: 250px 250px 250px;
@@ -103,6 +104,7 @@ _______________________________*/
     border-radius: 5px;
     box-shadow: 2px 2px #888888;
 }
+
 .card img {
     margin-left: 20%;
     margin-top: 5px;
@@ -146,6 +148,7 @@ _________________________________________*/
     margin: auto;
     width: 50%;
 }
+
 .testing a {
     text-transform: uppercase;
     margin-left: 25%;
@@ -156,7 +159,6 @@ _________________________________________*/
     border-radius: 5px;
 }
 
-
 /* Recent Stories Section
 ___________________________________*/
 
@@ -164,6 +166,7 @@ ___________________________________*/
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
 .stories .container {
     display: flex;
     flex-direction: column;
@@ -207,14 +210,16 @@ ___________________________________*/
 __________________________________*/
 
 .newsletter {
+    padding-top: 5%;
+    padding-bottom: 5%;
     background-color: #48BB78;
     color: white;
 }
 
 .newsletter .container {
-    border: 3px solid red;
     margin:auto;
-    width: 50%;
+    width: 35%;
+    align-content: center;
     padding: 10px;
 }
 
@@ -222,18 +227,45 @@ __________________________________*/
     text-align: center;
 }
 
+.newsletter p {
+    padding-right: 5%;
+}
+
 .form-group {
     float: left;
+    margin-right: 10px;
 }
+
+#email {
+    padding-left: 5px;
+    padding-right: 90px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
 button {
     background-color: #5A67D8;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: none;
 }
 
-/* footer {
-    grid-area: footer;
+/* Footer Section Styles
+______________________________*/
+
+footer {
+    display: grid;
     background-color: #4A5568;
     color: white;
-} 
- */
+}
 
+footer .container {
+    padding-left: 10%;
+}
 
