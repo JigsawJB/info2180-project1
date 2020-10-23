@@ -30,15 +30,16 @@ header ul {
     justify-content: right;
 }
 
-header li, a {
-    
+header li{
     font-size: 18px;
     font-weight: bold;
-    list-style: none;
+    list-style: none;    
+}
+
+header a {
     text-decoration: none;
-    /* color: #6B7280; */
-    color: black;
-    padding: 0 5px 0 5px;
+    padding: 0 10px 0 10px;
+    color: #6B7280;
 }
 
 header a:hover {
@@ -48,14 +49,15 @@ header a:hover {
 /* Main Section Styles
 __________________________*/
 
+
 /* Overview Section
 __________________________*/
 .overview-hero {
     display: flex;
     background-color: #E2E8F0;
     justify-content: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 20%;
     padding-right: 10%;
 }
@@ -64,7 +66,10 @@ __________________________*/
     margin: 0 10px 0 40px;
 
 }
+
 .overview-hero-image img {
+    margin-top: 5px;
+    margin-bottom: 5px;
     border-radius: 20%;
     margin-right: 25px;
     float: left;
@@ -75,59 +80,81 @@ __________________________*/
 }
 
 
-/* header {
-    display: flex;
-    flex: 1 1 100px;
-    flex-direction: row;
-    list-style: none;
-    justify-content: right;
-    padding-right: 16px;
-    margin: 10px;
-} 
+/* Learn About Section Styles
+_______________________________*/
 
-header h1 {
-    float: left;
-    margin : 0 1px 0px 1px;
+.learn-about {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 20px;
 }
 
-header li {
-    float: right;
-    list-style: none;
-    margin: 0 2px 0 2px;
-    
-} */
-
-/* 
 .learn-about h2 {
-    clear: both;
     font-size: 24px;
     color: #48BB78;
 }
 .cards {
     display: grid;
-    grid-gap: 5px;
-    grid-template-rows: 1;
+    grid-template-columns: 250px 250px 250px;
+    grid-gap: 15px;
 }
-
 
 .card {
-    border-color: #E2E8F0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 1px solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow: 2px 2px #888888;
+}
+.card img {
+    margin-left: 20%;
+    margin-top: 5px;
     border-radius: 10px;
-    box-shadow: 10px;
 }
 
+.card-body {
+    padding-left: 10px;
+}
+
+.card-body h3 {
+    font-size: 21px;
+    color: #48BB78;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* Covid-19 Testing Programme Section 
+_________________________________________*/
+
+
 .testing {
+    background-color: #4A5568;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #FFFFFF;
+}
+
+.testing-desciption {
+    margin-left: 10%;
+    margin-right: 30%;
+}
+
+/* .cta {
+    float: right;
+    background-color: #48BB78;
+    border-radius: 5px;
+    padding: 10px;
+} */
+
+
+/* .testing {
     background-color: #4A5568;
     color: #FFFFFF;
 }
 
-.cta {
-    background-color: #48BB78;
-    border-radius: 5px;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
+
 
 .stories h2 {
     color: #5A67D8;
