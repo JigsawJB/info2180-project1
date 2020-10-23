@@ -93,6 +93,7 @@ _______________________________*/
     display: grid;
     grid-template-columns: 250px 250px 250px;
     grid-gap: 15px;
+    margin-bottom: 20px;
 }
 
 .card {
@@ -122,12 +123,47 @@ _______________________________*/
 /* Covid-19 Testing Programme Section 
 _________________________________________*/
 
+.testing {
+    margin-top: 5px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #4A5568;
+    color: white;
+}
 
+.testing .container {
+    display: flex;
+    margin: auto;
+    width: 55%;
+    padding: 10px;
+}
+
+.testing p {
+    padding-right: 5%;
+}
+
+.cta {
+    margin: auto;
+    width: 50%;
+}
+.testing a {
+    text-transform: uppercase;
+    margin-left: 25%;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #48BB78;
+    border-radius: 5px;
+}
 
 
 /* Recent Stories Section
 ___________________________________*/
 
+.stories {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
 .stories .container {
     display: flex;
     flex-direction: column;
@@ -193,11 +229,11 @@ button {
     background-color: #5A67D8;
 }
 
-footer {
+/* footer {
     grid-area: footer;
     background-color: #4A5568;
     color: white;
 } 
-
+ */
 
 
