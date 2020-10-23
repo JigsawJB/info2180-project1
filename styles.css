@@ -129,25 +129,86 @@ _______________________________*/
 _________________________________________*/
 
 
-.testing {
-    background-color: #4A5568;
-    padding-top: 5%;
-    padding-bottom: 5%;
-    color: #FFFFFF;
+
+
+/* Recent Stories Section
+___________________________________*/
+
+.stories {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
+.stories .container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.stories img {
+    float: left;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-top: 25px;
+    margin-left: 10px;
+    
+}
+
+.stories h2, .stories a {
+    color: #5A67D8;
+}
+
+.stories h2 {
+    padding-left: 10px;
+}
+.stories a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.stories h3 {
+    font-size: 18px;
+    margin-right: 20%;
+}
+
+.stories p {
+    padding-right: 10%;
+}
+/* .article-body {
+    background-color: yellow
+} */
+
+
+
+
+/* .testing {
+    background-color: #4A5568;
+    /* padding-top: 5%;
+    padding-bottom: 5%; */
+
+/* .testing .container {
+    display: flex;
+}
 .testing-desciption {
+    float: left;
+    background-color: yellow;
     margin-left: 10%;
     margin-right: 30%;
 }
 
-/* .cta {
-    float: right;
-    background-color: #48BB78;
+.cta {
     border-radius: 5px;
-    padding: 10px;
-} */
-
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-bottom: 0%;
+}
+.cta a {
+    text-decoration: none;
+    color: #FFFFFF;
+} */ 
 
 /* .testing {
     background-color: #4A5568;
