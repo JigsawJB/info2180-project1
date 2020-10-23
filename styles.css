@@ -22,7 +22,7 @@ header h1 {
 }
 
 header ul {
-    margin-left: 40%;
+    margin-left: 50%;
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
@@ -31,12 +31,14 @@ header ul {
 }
 
 header li, a {
+    
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bold;
     list-style: none;
     text-decoration: none;
-    color: #6B7280;
-    padding: 0 10px 0 10px;
+    /* color: #6B7280; */
+    color: black;
+    padding: 0 5px 0 5px;
 }
 
 header a:hover {
@@ -63,7 +65,6 @@ __________________________*/
 
 }
 .overview-hero-image img {
-    background-color: red;
     border-radius: 20%;
     margin-right: 25px;
     float: left;
